@@ -21,7 +21,7 @@ services:
 
   go_service_a:
     build:
-      context: ./Service_A
+      context: ./service_A
       dockerfile: ./Dockerfile
     ports:
       - "8080:8080"
@@ -35,7 +35,7 @@ services:
 
   go_service_b:
     build:
-      context: ./Service_B
+      context: ./service_B
       dockerfile: ./Dockerfile
     ports:
       - "8081:8081"
